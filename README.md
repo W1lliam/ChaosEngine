@@ -13,15 +13,18 @@ Chaos Engine is a C++/Opengl (later added support for Linux and Vulkan) develope
 
 ## My part
 During the development process i was responsible for:
-- Memory management
-- Resources management
-- Setting up an Entity Component System.
-- Basic Rendering API Wrapping
-- Scripting integration (using Squirrel)
-- Scene Management & Scene System
-- Editor Inspector
-- Image Based Lighting
-- Skybox Preprocessing
+- Setting up an Event System/Dispatcher.
+- Asset conditioning (.chaosasset)
+- Low level Rendering pipeline.
+- Shader creation for different types of materials.
+- Lighting system.
+- Camera system.
+- Post processing effects (GBuffer, FXAA, Blur, etc).
+- Deferred rendering pipeline.
+- PingPong shading.
+- Shadows
+- PBR rendering pipeline.
+- Editor creation 
 
 ## Libraries used
 - PhysX
