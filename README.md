@@ -14,17 +14,18 @@ Chaos Engine is a C++/Opengl (later added support for Linux and Vulkan) develope
 ## My part
 During the development process i was responsible for:
 - Setting up an Event System/Dispatcher.
-- Asset conditioning (.chaosasset)
+- Asset conditioning (.chaosasset).
 - Low level Rendering pipeline.
 - Shader creation for different types of materials.
 - Lighting system.
 - Camera system.
 - Post processing effects (GBuffer, FXAA, Blur, etc).
 - Deferred rendering pipeline.
-- PingPong shading.
-- Shadows
+- PingPong rendering.
+- Realtime Shadows (ShadowMapping).
 - PBR rendering pipeline.
-- Editor creation 
+- Editor creation. 
+- Audio integration.
 
 ## Libraries used
 - PhysX
@@ -32,6 +33,7 @@ During the development process i was responsible for:
 - SpdLog
 - OpenGL
 - Qt
+- FMOD
 
 ## How to Buid Chaos Engine
 CMake 3.12.2 or newer is needed to complete the build.
